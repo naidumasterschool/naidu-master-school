@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Admin Login</h2>
+
+<div id="loginDiv">
+    <input type="password" id="password" placeholder="Enter Password">
+    <button onclick="login()">Login</button>
+</div>
+
+<div id="adminPanel" style="display:none;">
+    <h3>Edit School Name</h3>
+    <input type="text" id="newName">
+    <button onclick="updateName()">Update</button>
+
+    <h3>Edit About Text</h3>
+    <textarea id="newAbout"></textarea>
+    <button onclick="updateAbout()">Update</button>
+
+    <h3>Change Gallery Image URL</h3>
+    <input type="text" id="newImage">
+    <button onclick="updateImage()">Update</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
