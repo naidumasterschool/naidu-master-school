@@ -36,14 +36,14 @@ header {
 }
 
 .logo-area img {
-    width: 55px;
-    height: 55px;
+    width: 80px;
+    height: 80px;
     margin-right: 12px;
     border-radius: 8px;
 }
 
 .logo-area h1 {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
 }
 
@@ -72,7 +72,7 @@ nav ul li a:hover {
 .hero {
     height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
-    url("https://drive.google.com/uc?export=view&id=YOUR_IMAGE_ID");
+    url("https://drive.google.com/drive/folders/17VB3h9_4ccVWQBQr194bIpkfMa5_gUbb");
     background-size: cover;
     background-position: center;
     display: flex;
